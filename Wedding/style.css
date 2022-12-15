@@ -5,7 +5,6 @@ head,body{
     margin: 0;
     width: 100%;
     max-width:100%;
-    height: 100%;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/Wedding/Photos/couple\ door2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,6 +15,7 @@ head,body{
 }
 body{
     overflow-x:hidden;
+    height: 900px;
 }
 
 nav{
@@ -54,14 +54,6 @@ a:hover {
     text-decoration: underline;
     color: salmon;
   }
-
-/*#couplePict{
-    background-image: url(/Wedding/Photos/couple\ door2.jpg);
-    width: 100%;
-    height: 40px;
-    border: 2px solid salmon;
-}*/
-
 h1,h2{
     /*border: 2px solid yellow;*/
     float: left;
@@ -71,7 +63,6 @@ h1,h2{
     text-shadow: 10px;
     text-shadow: 5px 5px 5px black;  
 }
-
 h1{
     font-family: 'Tangerine', cursive;
     font-size: 150px;
@@ -136,12 +127,20 @@ h3{
     margin-top: 190px;
     border-radius: 25px;
     width: 100vw;
-    background-color: antiquewhite;
     height: 800px;
     display: block;
+    background-color: antiquewhite;
 }
 
-
+#wedCere,#reception{
+    border: 3px solid #112219;
+    border-radius: 25px;
+    width: 500px;
+    height: 450px;
+    float: left;
+    display: center;
+    margin-left: 10vw;
+}
 /*h5{
     border: 2px solid violet;
     flex: left;
