@@ -190,6 +190,9 @@ h3{
 #wedCere > h5{
     margin-top: 19px;
 }
+#wedCere > p,#reception > p{
+    
+}
 /*h5{
     border: 2px solid violet;
     flex: left;
