@@ -249,6 +249,9 @@ h3{
     float: left;
     width: 33%;
 }
+.friends > img{
+    width: 100px;
+}
 
 /*
 @media screen and (min-width: 1366px) {
